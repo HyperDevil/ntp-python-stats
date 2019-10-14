@@ -15,18 +15,6 @@ from threading import Thread
 # sudo setcap cap_net_raw,cap_net_admin=eip /usr/sbin/tcpdump
 # sudo ln -s /usr/sbin/tcpdump /usr/bin/tcpdump
 
-
-#Database layout (memory database)
-#CREATE TABLE `clients` (
-#  `time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
-#  `ip` int(10) UNSIGNED NOT NULL,
-#  `version` int(1) NOT NULL
-#) ENGINE=MEMORY DEFAULT CHARSET=latin1;
-#ALTER TABLE `clients`
-#  ADD UNIQUE KEY `ip` (`ip`),
-#  ADD KEY `time` (`time`),
-#  ADD KEY `version` (`version`);
-
 def getdata():
   #connect to database, remember credentials and hostname and database
   db = pymysql.connect(host='localhost',user='bla',passwd='bla',db='ntp',autocommit=True)
