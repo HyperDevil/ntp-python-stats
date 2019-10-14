@@ -4,11 +4,11 @@ It generates statistics into a MySQL (in-memory) database, from there the statis
 to store the metrics into Prometheus.
 
 Requirements:
-* Prometheus server
-* Graphite Exporter
-* Node Exporter
-* Grafana
-* MySQL
+* A working Prometheus server
+* Working Graphite Exporter
+* Working Node Exporter
+* Working Grafana 
+* Working MySQL (with a user and a working ntp database)
 * Python 3+ (and PyMySQL)
 * TCPdump (and the rights to run it, sudo for example)
 
