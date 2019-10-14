@@ -5,4 +5,4 @@ to store the metrics into Prometheus.
 
 The end-result in grafana will look like this:
 
-![Grafana NTP screenshot](image/ntp.jpg)
+![alt tag](https://github.com/HyperDevil/ntp-python-stats/blob/master/ntp.jpg?raw=true)
