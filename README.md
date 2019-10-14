@@ -5,4 +5,4 @@ to store the metrics into Prometheus.
 
 The end-result in grafana will look like this:
 
-![Grafana NTP screenshot](https://imgur.com/BKKT9tU)
+![Grafana NTP screenshot](image/ntp.jpg)
