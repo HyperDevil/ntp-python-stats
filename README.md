@@ -10,7 +10,7 @@ Requirements:
 * Grafana
 * MySQL
 * Python 3+
- - PyMySQL
+** PyMySQL
 * TCPdump (and the rights to run it, sudo for example)
 
 
