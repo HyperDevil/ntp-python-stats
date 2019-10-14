@@ -8,7 +8,7 @@ Requirements:
 * Working Graphite Exporter
 * Working Node Exporter
 * Working Grafana 
-* Working MySQL (with a user and a working ntp database)
+* Working MySQL server
 * Python 3+ (and PyMySQL)
 * TCPdump (and the rights to run it, sudo for example)
 
