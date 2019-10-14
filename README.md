@@ -3,7 +3,7 @@ This Python program will monitor all NTP UDP traffic on port 123, it's very conv
 It generates statistics into a MySQL (in-memory) database, from there the statistics are queried and sent to Graphite exporter
 to store the metrics into Prometheus.  
 Statistics gathered: NTP version of client, IP of client, last-time-seen client.  
-The MySQL in-memory database is cleared every 30 minutes (to save space), it's also in-memory because the I/O load is pretty high. (aprox 80 QPS with 3500 clients)
+The MySQL in-memory database is cleared every 30 minutes (to save space), it's also in-memory because the I/O load is pretty high. (aprox 80 QPS with 3500 clients)  
 This script has been tested on TCPDump version 4.9.2 on Ubuntu 18.04
 
 Requirements:
