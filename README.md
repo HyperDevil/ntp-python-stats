@@ -13,5 +13,8 @@ Requirements:
 * TCPdump (and the rights to run it, sudo for example)
 
 
+Files
+* ntp-dashboard.json (grafana dashboard) remember to change source and server name in queries
+
 The end-result in grafana will look like this:
 ![alt tag](https://github.com/HyperDevil/ntp-python-stats/blob/master/ntp.PNG?raw=true)
