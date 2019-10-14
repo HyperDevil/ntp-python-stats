@@ -16,7 +16,7 @@ Requirements:
 
 Files
 * ntp-dashboard.json (grafana dashboard) remember to change source and server name in queries
-* ntp.sql (SQL dump of database structure)
+* ntp.sql (SQL dump of database structure) create database ntp and make a user for that DB with insert, update and delete rights
 
 The end-result in grafana will look like this:
 ![alt tag](https://github.com/HyperDevil/ntp-python-stats/blob/master/ntp.PNG?raw=true)
